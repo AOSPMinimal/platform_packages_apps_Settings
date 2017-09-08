@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2020 The PixelDust Project
+     Copyright (C) 2020 AOSP Minimal
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,16 +14,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-
-    <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-
-    <!-- Minimal Settings -->
-    <string name="minimal_settings_title">AOSP Minimal Settings</string>
-    <string name="starlight_dashboard_summary">Wtf i even doing this RE</string>
-</resources>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:name="path"
+        android:pathData="M 15 6 L 21 20 L 19 20 C 17.8 20 17.4 19.5 17.4 19.4 C 17.3 19.3 17.1 19 17 18.8 L 13 10 L 15 6 Z M 13 4 L 7.1 18.9 C 7 19 7 19.1 6.9 19.2 C 6.6 19.4 6 20 5 20 L 3 20 L 9 5 C 9.4 4.3 10 4 11 4 L 13 4 Z"
+        android:fillColor="#0000e6"
+        android:strokeWidth="1"/>
+</vector>

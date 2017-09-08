@@ -1,0 +1,2 @@
+# MinimalSettings
+-keep class com.minimal.settings.**
