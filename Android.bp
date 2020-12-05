@@ -28,13 +28,13 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-           "StarlightSettings/src/**/*.java",
+           "MinimalSettings/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages com.starlight.settings"],
+    aaptflags: ["--extra-packages com.minimal.settings"],
 
     resource_dirs: ["res",
-                    "StarlightSettings/res"
+                    "MinimalSettings/res"
     ],
 
     static_libs: [
